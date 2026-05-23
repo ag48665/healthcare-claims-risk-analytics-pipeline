@@ -1,0 +1,11 @@
+claim_id,patient_id,hospital,diagnosis,claim_cost,icu_admission,length_of_stay,readmitted_30_days
+1001,1,Amsterdam UMC,Heart Failure,12500,1,7,1
+1002,2,Erasmus MC,COPD,7800,0,5,1
+1003,3,UMC Utrecht,Pneumonia,3200,0,2,0
+1004,4,Amsterdam UMC,Diabetes Complication,15200,1,9,1
+1005,5,Leiden UMC,Minor Infection,2100,0,2,0
+1006,6,Erasmus MC,Stroke,23000,1,12,1
+1007,7,UMC Utrecht,Hypertension Crisis,6900,0,5,0
+1008,8,Amsterdam UMC,Respiratory Failure,16800,1,7,1
+1009,9,Leiden UMC,Appendicitis,5400,0,3,0
+1010,10,Radboud UMC,Heart Failure,19700,1,10,1
