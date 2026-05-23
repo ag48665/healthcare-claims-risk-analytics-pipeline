@@ -1,0 +1,214 @@
+
+<html>
+<head>
+    <title>Healthcare Claims Risk Analytics Report</title>
+</head>
+<body>
+    <h1>Healthcare Claims Risk Analytics Report</h1>
+
+    <h2>Data Quality Report</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>patients_rows</th>
+      <th>claims_rows</th>
+      <th>patients_missing_values</th>
+      <th>claims_missing_values</th>
+      <th>duplicate_patient_ids</th>
+      <th>duplicate_claim_ids</th>
+      <th>negative_claim_costs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>Hospital KPIs</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>hospital</th>
+      <th>total_claims</th>
+      <th>avg_claim_cost</th>
+      <th>avg_length_of_stay</th>
+      <th>readmission_rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Radboud UMC</td>
+      <td>1</td>
+      <td>19700.00</td>
+      <td>10.00</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Erasmus MC</td>
+      <td>2</td>
+      <td>15400.00</td>
+      <td>8.50</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>Amsterdam UMC</td>
+      <td>3</td>
+      <td>14833.33</td>
+      <td>7.67</td>
+      <td>100.0</td>
+    </tr>
+    <tr>
+      <td>UMC Utrecht</td>
+      <td>2</td>
+      <td>5050.00</td>
+      <td>3.50</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>Leiden UMC</td>
+      <td>2</td>
+      <td>3750.00</td>
+      <td>2.50</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>High-Risk Patients</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>patient_id</th>
+      <th>age</th>
+      <th>diabetes</th>
+      <th>hypertension</th>
+      <th>chronic_disease</th>
+      <th>claim_cost</th>
+      <th>icu_admission</th>
+      <th>readmitted_30_days</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>6</td>
+      <td>81</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>23000</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>75</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>19700</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>52</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>16800</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>58</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>15200</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>72</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>12500</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>Cost by Diagnosis</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>diagnosis</th>
+      <th>total_cases</th>
+      <th>avg_cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Stroke</td>
+      <td>1</td>
+      <td>23000.0</td>
+    </tr>
+    <tr>
+      <td>Respiratory Failure</td>
+      <td>1</td>
+      <td>16800.0</td>
+    </tr>
+    <tr>
+      <td>Heart Failure</td>
+      <td>2</td>
+      <td>16100.0</td>
+    </tr>
+    <tr>
+      <td>Diabetes Complication</td>
+      <td>1</td>
+      <td>15200.0</td>
+    </tr>
+    <tr>
+      <td>COPD</td>
+      <td>1</td>
+      <td>7800.0</td>
+    </tr>
+    <tr>
+      <td>Hypertension Crisis</td>
+      <td>1</td>
+      <td>6900.0</td>
+    </tr>
+    <tr>
+      <td>Appendicitis</td>
+      <td>1</td>
+      <td>5400.0</td>
+    </tr>
+    <tr>
+      <td>Pneumonia</td>
+      <td>1</td>
+      <td>3200.0</td>
+    </tr>
+    <tr>
+      <td>Minor Infection</td>
+      <td>1</td>
+      <td>2100.0</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>Summary</h2>
+    <p>This automated report summarizes healthcare claims, readmission risk, ICU cases, and hospital cost patterns.</p>
+</body>
+</html>
