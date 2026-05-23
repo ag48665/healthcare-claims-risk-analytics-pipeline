@@ -1,0 +1,10 @@
+diagnosis,total_cases,avg_cost
+Stroke,1,23000.0
+Respiratory Failure,1,16800.0
+Heart Failure,2,16100.0
+Diabetes Complication,1,15200.0
+COPD,1,7800.0
+Hypertension Crisis,1,6900.0
+Appendicitis,1,5400.0
+Pneumonia,1,3200.0
+Minor Infection,1,2100.0

@@ -1,0 +1,2 @@
+patients_rows,claims_rows,patients_missing_values,claims_missing_values,duplicate_patient_ids,duplicate_claim_ids,negative_claim_costs
+10,10,0,0,0,0,0

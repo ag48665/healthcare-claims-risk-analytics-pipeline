@@ -1,0 +1,6 @@
+hospital,total_claims,avg_claim_cost,avg_length_of_stay,readmission_rate
+Radboud UMC,1,19700.0,10.0,100.0
+Erasmus MC,2,15400.0,8.5,100.0
+Amsterdam UMC,3,14833.33,7.67,100.0
+UMC Utrecht,2,5050.0,3.5,0.0
+Leiden UMC,2,3750.0,2.5,0.0

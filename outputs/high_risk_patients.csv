@@ -1,0 +1,6 @@
+patient_id,age,diabetes,hypertension,chronic_disease,claim_cost,icu_admission,readmitted_30_days
+6,81,1,1,1,23000,1,1
+10,75,1,1,1,19700,1,1
+8,52,1,0,1,16800,1,1
+4,58,1,1,1,15200,1,1
+1,72,1,1,1,12500,1,1
